@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando Cajamarca</title>
+    <style>
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #E08C1F;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #E09D07;
+            padding: 20px;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #DBAF54;
+            display:flex;
+        }
+
+        .new-section{
+            width: 200px; 
+            height: 100%;
+            background-color: #E09D07;
+            position: fixed; 
+            top: 0; 
+            right: 0; 
+            flex:1;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .recommendations{
+            background-color: #E08D07;
+            padding: 20px;
+            margin-top: 20px;
+            flex-direction: column;
+            display: flex;
+            flex: 1;
+        }
+        footer {
+            background-color: #E0C943;
+            color: #000000;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        article {
+            flex: 2;
+            background-color: #DBB04D;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .contenedor-imagenes {
+            display: flex; 
+        }
+        .contenedor-imagenes img {
+            display: inline-block; 
+            margin-right: 30px; 
+            vertical-align: top; 
+        }
+        .contenedor-imagenes-2 {
+            display: flex; 
+        }
+        .contenedor-imagenes-2 img {
+            display: inline-block; 
+            margin-right: 30px; 
+            margin-top: 50px; 
+        }
+        .columns img{
+            margin-top: 10px;
+            max-width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Aspectos geográficos de Cajamarca </h1>
+        <nav>
+        <h2>Explora más</h2>
+        <ul>
+            <li><a href="index.html"> Introducción </a></li>
+             <li><a href="historia.html"> Aspectos históricos </a></li>
+             <li><a href="economia.html">Aspectos economicos</a></li>
+             <li><a href="datosextra.html">Datos Extras</a></li>
+        </ul>
+      </nav>
+      </header>
+    <section>
+      <aside>
+        <h2> Localización (mapas, fronteras, divisiones territoriales): </h2>
+          <div class="container">
+            <div class="columns">
+                <p> Cajamarca se encuentra al norte, exactamente   al norte de La Libertad  </p>
+                    <img src="imagenes/Provincias.png" width="200" height="200">
+                <p> Las fronteras de Cajamarca son, al norte, Ecuador; al este, el departamento de Amazonas; al sur, el departamento de La  Libertad; al oeste, el departamento de Lambayeque y al noroeste el departamento de  Piura. </p>
+                    <img src="imagenes/Fronteras.png" width="200" height="200">
+                <p> Las provincias de Cajamarca son: San Ignacio, Jaén, Cutervo, Chota, Santa Cruz, San Miguel, Hualgayoc, Celendin, Cajamarca, Cajabamba y Contumáza. </p>
+                    <img src="imagenes/Mapa.png" width="200" height="200">
+            </div>
+          </div>
+    </aside>
+    </section>
+
+    <section>
+      <article>
+        <h2> Recursos naturales: </h2>
+        <p>Algunas provincias como Cajamarca, Cajabamba, chota, entre otras, tienen distritos, como Chetilla, Cachachi, los baños del Inca; donde se exportan desde las minas, minerales como el oro, plata, bronce, cuarzo (vidrio), cal, plomo, carbón de piedra, yeso, manganeso, caolín, mármol, caliza, arcilla, hierro, pirita y zinc. De hecho, Cajamarca está tan cotizada por las minas que recientemente hay personas que decidieron mudarse y trabajar en la mina o quedarse por sus recursos. Este puede ser el caso de personas de otros departamentos o extranjeros. </p>
+      <div class="contenedor-imagenes">
+        <img src="imagenes/minas.jpg" width="350" height="250">
+        <img src="imagenes/mineros.jpg" width="350" height="250">
+      </div>
+      </article>
+      <article>
+        <h2>Climas </h2>
+        <p>El clima de cajamarca puede ser muy variado e incluso impredecible. Puede usted ver desde el hotel que hay sol, luego en el exterior encuentra frío, una neblina y finalmente termina lloviendo. Hasta que finalmente vuelve a salir el sol en la tarde y vuelve a terminar con una llovizna en la noche. A comparación del Cuzco, no hay casos usuales de granizo. Pero si se pueden encontrar rayos y truenos. </p>
+      <div class="contenedor-imagenes">
+       <img src="imagenes/climas.jpg" width="350" height="250">
+       <img src="imagenes/lluvia.jpg" width="350" height="250">
+      </div>
+    </article>
+    </section>
+    <section id="Fauna y flora">
+         <aside>
+        <h2> Fauna y Flora: </h2>
+        <li> En Fauna, hay algunos animales que se pueden encontrar en la granja Porcón como: </li>
+          <div class="contenedor-imagenes-2"> 
+            <img src="imagenes/mono.jpg" width="200" height="200" alt="Monos">
+            <img src="imagenes/oso de anteojos.jpg" width="200" height="200" alt="Oso de anteojos">
+            <img src="imagenes/zorrorunrun.jpg" width="200" height="200" alt="El zorro Run Run">
+          </div>
+          <div class="contenedor-imagenes-2">
+            <img src="imagenes/vizcacha.jpg" width="200" height="200" alt="Vizcacha">
+            <img src="imagenes/tapires.jpg" width="200" height="200" alt="Tapires">
+          </div>
+        </aside>
+         <aside>
+        <li> Y de igual forma, en este departamento podemos encontrar gran variedad de flora como: </li>
+          <div class="contenedor-imagenes-2">
+            <img src="imagenes/geranios.jpg" width="200" height="200" alt="Geranios">
+            <img src="imagenes/hortensias.jpg" width="200" height="200" alt="Hortensias">
+            <img src="imagenes/frijoles.jpg" width="200" height="200" alt="Frijoles">
+          </div>
+          <div class="contenedor-imagenes-2">
+            <img src="imagenes/patadeoso.jpg" width="200" height="200" alt="Patadeoso">
+            <img src="imagenes/tagete.jpg" width="200" height="200" alt="Tagete">
+      </aside>
+    </section>
+  <section id="relación del hombre y su medio">
+    <aside>
+        <h2> Relación del hombre y su medio: </h2>
+        <p>Las personas se encargan de actividades como la agricultura. Cuidan de las plantas y de sus cultivos. Aún podemos seguir viendo personas que son cajamarquinos tradicionales, que siguen fabricando sus herramientas de cosecha y arado.También, cuidan sitios arqueológicos que sirven para la atracción turística.De igual manera, gestionan bien su medio al poder ser capaces de vender sus productos artesanales y alimentos lácteos. Tales como el queso mantecoso, suizo, duro, entre otros. Saben cuidar bien a sus animales, incluyendo las vacas. </p>
+        <div class="contenedor-imagenes-2">
+          <img src="imagenes/cumbemayo.jpg" width="250" height="200">
+          <img src="imagenes/cuidadodeplantas.jpg" width="250" height="200">
+        </div>
+    </aside>
+    </section>
+      <section id="uso de los recursos">
+        <aside>
+        <h2> Uso de los recursos por parte del gobierno regional: </h2>
+        <p> Las minas aportan varios recursos naturales y minerales como se explicó previamente. Sin embargo, no todas son explotadas. </p>
+                <img src="imagenes/construcción.jpg" width="350" height="200">
+        <p> Según nuestro punto de vista, el gobierno regional gestiona responsablemente los recursos naturales ya que actualmente Cajamarca cuenta con varios servicios y lugares que un departamento o lugar bajo en economía o mala gestión no pudiera tener o acceder. Podemos ver que cuentan con un coliseo, ministerios, hospitales (tienen en construcción uno), escuelas con lo esencial y una buena universidad. </p>
+              <div class="contenedor-imagenes-2">
+                <img src="imagenes/salud.jpg" width="300" height="200">
+                <img src="imagenes/hospital.jpg" width="300" height="200">
+              </div>
+        <p> Sin embargo, como en cualquier parte del mundo, puede existir gente corrupta o egoísta que quiere asumir la alcaldía. Algunos cajamarquinos afirman que Sergio Sánchez, gerente regional de recursos naturales y gestión del medio ambiente, años anteriores afirma que robó al departamento y quiere seguir siendo electo. </p>
+    </aside>
+    </section>
+
+      <section id="zonas protegidas">
+         <article>
+        <h2> Zonas protegidas </h2>
+        <p> Las zonas protegidas son zonas en donde no se permiten la caza y generalmente están habitados por animales o lugares en peligro de extinción: </p>
+         <li> Área de conservación privada Chaparrí, esta área está protegida por su gran biodiversidad en animales. </li>
+         <li> Área de conservación regional Bosques El Chaupe, Cunía y Chinchiquilla </li>
+         <li> Área de conservación regional Bosques Secos del Marañón </li>
+         <li> Área de conservación regional Páramos y Bosques Montanos de Jaén y Tabaconas </li>
+         <li> Coto de caza Sunchubamba </li>
+         <li> Parque nacional de Cutervo </li>
+         <li> Bosque de protección de Pagaibamba </li>
+         <li> Refugio de vida silvestre Bosques Nublados de Udima </li>
+         <li> Santuario nacional Tabaconas Namballe </li>
+         <li> Zona reservada Chancaybaños </li>
+         <div class="contenedor-imagenes-2">
+          <img src="imagenes/marañon.jpg" width="300" height="200" alt="Marañon">
+          <img src="imagenes/chaparri.jpg" width="300" height="200" alt="Chaparrí">
+          </div>
+        </article>
+        <aside>
+          <h2>Video de lugares turisticos de Cajamarca</h2>
+           <p> Aqui les traemos un video de Cajamarca en el que tambien puede ver mas lugares turisticos de Cajamarca, como un extra :D</p>
+            <div>
+              <iframe width="460" height="215" src="https://www.youtube.com/embed/echIcCeMeRc?si=_2LRS7-1-LhnqZ-q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ExplorandoconAlexayAntonella.com - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando Cajamarca</title>
+    <style>
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #E08C1F;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #E09D07;
+            padding: 20px;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #DBAF54;
+            display:flex;
+        }
+
+        .new-section{
+            width: 200px; 
+            height: 100%;
+            background-color: #E09D07;
+            position: fixed; 
+            top: 0; 
+            right: 0; 
+            flex:1;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .recommendations{
+            background-color: #E08D07;
+            padding: 20px;
+            margin-top: 20px;
+            flex-direction: column;
+            display: flex;
+            flex: 1;
+        }
+        footer {
+            background-color: #E0C943;
+            color: #000000;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        article {
+            flex: 2;
+            background-color: #DBB04D;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .contenedor-imagenes {
+            display: flex; 
+        }
+        .contenedor-imagenes img {
+            display: inline-block; 
+            margin-right: 30px; 
+            vertical-align: top; 
+        }
+        .contenedor-imagenes-2 {
+            display: flex; 
+        }
+        .contenedor-imagenes-2 img {
+            display: inline-block; 
+            margin-right: 30px; 
+            margin-top: 50px; 
+        }
+        .columns img{
+            margin-top: 10px;
+            max-width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cajamarca: El encuentro de dos mundos</h1>
+        <nav>
+        <h2>Explora más</h2>
+        <ul>
+             <li><a href="index.html"> Introducción </a></li>
+             <li><a href="historia.html"> Aspectos históricos </a></li>
+             <li><a href="geografia.html">Aspectos geograficos</a></li>
+             <li><a href="datosextra.html">Datos Extras</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="economía">
+          <aside>
+        <h2> Actividades económicas </h2>
+        <p> Las principales actividades productivas en Cajamarca son la minería (36% del VAB) y Agricultura, caza y silvicultura (13% del VAB). Siendo la actividad minera tan importante en esta región, resulta fácil entender que en el periodo en el que Cajamarca mostró un crecimiento superior al de Perú (36% Cajamarca y 23% Perú entre 2001 y 2005), la minería contribuyó con 30% de este crecimiento debido a su buen desempeño. Aun así durante el tercer trimestre del 2021, la actividad económica nacional creció 1.6% en comparación al mismo trimestre del 2019. No obstante, la economía de Cajamarca aún no logra superar la producción del periodo pre pandemia. En el tercer trimestre del 2021, la actividad económica cajamarquina exhibe un decrecimiento de 0.3% en comparación con el mismo periodo del 2019. </p>
+          <div class="contenedor-imagenes-2">
+          <img src="imagenes/nota.png" width="300" height="200">
+          <img src="imagenes/huerta.png" width="300" height="200">
+          </div> 
+    </section>
+
+    <section id="economía">
+         <aside>
+        <h2> Lugares turisticos (galería de fotos) </h2>
+    <li> Namora </li> 
+      <div class="contenedor-imagenes-2"> 
+      <img src="imagenes/namora1.png" width="200" height="200"> 
+      <img src="imagenes/namora2.png" width="300" height="200"> 
+      <img src="imagenes/namora3.png" width="300" height="200">
+      <img src="imagenes/namora4.png" width="300" height="200">
+      </div>
+      <div class="contenedor-imagenes-2"> 
+      <img src="imagenes/namora5.png" width="300" height="200"> 
+      <img src="imagenes/namora6.png" width="300" height="200">
+      </div> 
+    <li> Alameda de los Incas </li> 
+      <div class="contenedor-imagenes-2">
+        <img src="imagenes/incas1.png" width="300" height="200">
+        <img src="imagenes/incas2.png" width="300" height="200">
+      </div>
+    <li> Ventanillas de Otuzco </li>
+      <div class="contenedor-imagenes-2"> 
+        <img src="imagenes/otuzco1.png" width="300" height="200">
+        <img src="imagenes/otuzco2.png" width="300" height="200">
+        <img src="imagenes/otuzco3.png" width="300" height="200">
+        <img src="imagenes/otuzco4.png" width="300" height="200">
+      </div> 
+     <li> City Tour </li> 
+      <div class="contenedor-imagenes-2">
+        <img src="imagenes/city1.png" width="300" height="200">
+        <img src="imagenes/city2.png" width="300" height="200">
+        <img src="imagenes/city3.png" width="300" height="200">
+        <img src="imagenes/city4.png" width="300" height="200">
+      </div>
+      <div class="contenedor-imagenes-2">
+        <img src="imagenes/city5.png" width="200" height="200">
+        <img src="imagenes/city6.png" width="300" height="200">
+      </div> 
+
+      <li> Cumbemayo </li>
+      <div class="contenedor-imagenes-2"> 
+        <img src="imagenes/mayo1.png" width="300" height="200">
+        <img src="imagenes/mayo2.png" width="300" height="200">
+        <img src="imagenes/mayo3.png" width="300" height="200">
+        <img src="imagenes/mayo4.png" width="300" height="200">
+      </div>
+      <div class="contenedor-imagenes-2">
+        <img src="imagenes/mayo5.png" width="300" height="200"> 
+      </div>
+       <li> La Colpa </li> 
+    <p>   <img src="imagenes/colpa1.png" width="300" height="200">
+          <img src="imagenes/colpa2.png" width="300" height="200">
+            <img src="imagenes/colpa3.png" width="300" height="200">
+              <img src="imagenes/colpa4.png" width="300" height="200"> </p> 
+        <li> Granja Porcón </li> 
+    <p>  <img src="imagenes/porcon1.png" width="300" height="200"> 
+         <img src="imagenes/porcon2.png" width="300" height="200">
+          <img src="imagenes/porcon3.png" width="300" height="200">
+           <img src="imagenes/porcon4.png" width="300" height="200"> </p> 
+    </section>
+
+   <section id="economía">
+         <aside>
+        <h2> Gobierno regional (manejo económico) </h2>
+        <p> Los consejeros votaron porque el sueldo del gobernador regional de Cajamarca asciende a 5.5 Unidades Remunerativas del Sector Público que equivale a 14 mil 300 soles (una URSP asciende a 2 mil 600 soles); lo que deriva que las dietas de los consejeros serán de 4 mil 290 soles (el 30% del sueldo del gobernador).</p> 
+        <img src="imagenes/gobierno1.png" width="100" height="100">
+        <p> “Tomamos con seriedad las sugerencias alcanzadas por los consejeros regionales para fortalecer las intervenciones en diferentes frentes y superar los desafíos que lleven a atender a un mayor número de pueblos”, puntualizó. </p> 
+        <img src="imagenes/gobierno2.png" width="700" height="400">
+
+      </aside>
+    </section>
+   <section id="economía">
+         <aside>
+        <h2> Rol de los agentes económicos para garantizar el desarrollo del mercado y el comercio regional </h2>
+       <p> En el caso de los Cajamarquinos ellos comen su propia comida, dejando así una gran variedad de gastronomía con diferentes sabores y natural, los gobiernos, en el cado de economía ellos se comprometieron a mejorar los regadíos de agua, además de mantener la agricultura estable, con esto las empresas podrán producir y negociar a diferentes países, manteniendo la economia estable en esta gran region. </p> 
+
+      </aside>
+    </section>
+ <section id="economía">
+    <article>
+        <h2> Empresas de la zona </h2>   
+<p> La estructura empresarial de Cajamarca está mayoritariamente conformada por la micro y pequeñas empresas (MYPE2). Según el Ministerio de la Producción (2021), en el departamento existen 51,5 mil unidades productivas formales, de las cuales el 99,7 por ciento son micro y pequeñas empresas, de las cuales son: </p> 
+
+<li> AMERICAN GENERAL SERVICE S.R.L. </li> 
+<li>ANDINA SERVICIOS Y REPRESENTACIONES (FOTOANDINA)</li> 
+<li>AUTOCENTRO CAJAMARCA.</li> 
+<li>CAXAMARCA GAS. </li> 
+<li>CEYCA SERVICIOS GENERALES. </li> 
+<li>EMBOTELLADORA TRISA.</li> 
+<li>JJM SERVICIOS GENERALES. </li> 
+<li>LA IDEAL.</li> 
+
+    </article>
+    <aside>
+      <h2> Video promocional</h2>
+        <iframe width="460" height="215" src="https://www.youtube.com/embed/pnMOohPNSsc?si=1mMNJ9Fy12oJVbLm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ExplorandoconAlexayAntonella.com - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
